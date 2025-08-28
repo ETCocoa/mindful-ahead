@@ -24,6 +24,15 @@ h3 {
   background-color: var(--primary-color);
 }
 
+/* Hero section */
+#hero {
+  background: url("../images/hero-image.webp") no-repeat center center/cover;
+}
+
+#cover-text {
+  max-width: 600px;
+}
+
 /* Temporary visualisation */
 /* .container,
 .row {
