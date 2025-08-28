@@ -1,12 +1,14 @@
 /* Google fonts */
 @import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
-/* CSS Variables */
+/* CSS variables */
 :root {
   --primary-font: "Lexend", sans-serif;
   --secondary-font: "Montserrat", Georgia;
+  --primary-color: #5b3cc4;
 }
 
+/* Global styles */
 body {
   font-family: var(--primary-font);
 }
@@ -15,6 +17,11 @@ h1,
 h2,
 h3 {
   font-family: var(--secondary-font);
+}
+
+/* Navbar */
+#navbar {
+  background-color: var(--primary-color);
 }
 
 /* Temporary visualisation */
