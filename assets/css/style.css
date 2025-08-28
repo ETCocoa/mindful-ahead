@@ -5,7 +5,7 @@
 :root {
   --primary-font: "Lexend", sans-serif;
   --secondary-font: "Montserrat", Georgia;
-  --primary-color: #5b3cc4;
+  --primary-color: #621ce3;
 }
 
 /* Global styles */
@@ -31,6 +31,7 @@ h3 {
 
 #cover-text {
   max-width: 600px;
+  text-shadow: 1px 1px 4px rgba(214, 214, 214, 0.3);
 }
 
 /* Temporary visualisation */
