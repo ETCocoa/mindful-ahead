@@ -57,15 +57,7 @@ h3 {
 }
 
 /* Resources section */
-.resources-image-container {
-  aspect-ratio: 1 / 1;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.resources-image {
+#resources-image {
   object-fit: cover;
   width: 100%;
   height: 100%;
