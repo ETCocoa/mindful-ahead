@@ -22,6 +22,8 @@ h3 {
 /* Navbar */
 #navbar {
   background-color: var(--primary-color);
+  font-family: var(--secondary-font);
+  font-weight: 700;
 }
 
 /* Hero section */
@@ -31,7 +33,8 @@ h3 {
 
 #cover-text {
   max-width: 600px;
-  text-shadow: 1px 1px 4px rgba(214, 214, 214, 0.5);
+  text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.4);
+  font-family: var(--secondary-font);
 }
 
 /* Temporary visualisation */
