@@ -19,6 +19,10 @@ h3 {
   font-family: var(--secondary-font);
 }
 
+.bold {
+  font-weight: 700;
+}
+
 /* Navbar */
 #navbar {
   background-color: var(--primary-color);
@@ -33,17 +37,12 @@ h3 {
 
 #cover-text {
   max-width: 600px;
-  text-shadow: 1px 1px 10px rgba(194, 194, 194, 0.4);
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.98);
+  color: white;
   font-family: var(--secondary-font);
 }
 
-/* Temporary visualisation */
-/* .container,
-.row {
-  border: 2px solid black;
+/* Common issues */
+#common-issues .card {
+  margin-bottom: 1.5rem;
 }
-
-.col-12 {
-  border: 2px solid white;
-  background-color: lightgray;
-} */
