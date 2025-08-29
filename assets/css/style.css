@@ -56,6 +56,19 @@ h3 {
   object-fit: cover;
 }
 
+/* Footer */
+#contact {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem 0;
+}
+
+#contact .social-links i {
+  color: white;
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+
 /* Media queries */
 /* Medium devices (tablets, 768px+) */
 @media screen and (min-width: 768px) {
